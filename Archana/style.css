@@ -1,0 +1,172 @@
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    margin-left: auto;
+    padding: 20px;
+    color: white;
+}
+header{
+    background-color:#48C9B0;
+    margin:auto -16px;
+    padding:16px 32px;
+    box-shadow:0 0 10px rgba(0,0,0,1);
+    border-radius: 1.5px;
+}
+
+header h1{
+color:white;
+font-family:cursive;
+font-weight:200;
+text-align: center;
+}
+header h1 :hover{
+    background-color:#138D75;}
+a{
+    text-decoration: none;
+    color:#555;
+
+}
+li a{
+    padding:10px;
+}
+li a:hover{
+color:white;
+}
+
+p{
+    color: #555;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 40px;
+}
+.container{
+    max-width: 1300px;
+    margin:auto;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis:50%;
+    min-width:300px;
+
+}
+.col-2 img{
+    max--width:100%;
+    padding: 50px 0;
+}
+.img1{
+    height: 30%;
+    width: 70%;
+    clip-path: circle(40% at 50% 50%);
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px;
+}
+p{
+    padding: 30px;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 40px;
+}
+.btn {
+    display: inline-block;
+    background: #48C9B0;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin-left: 40px;
+    transition: background 0.5s;
+}
+.btn:hover{
+background:#148F77;
+}
+.header{
+    background: radial-gradient(#EBF5FB,#D6EAF8);
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header .row{
+    margin-top: 10px;
+}
+.introduction{
+    max-width: 1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+}
+.img2{
+  height: 400px;
+ width: 400px;
+}
+.introduction p{
+    text-decoration-thickness: ;
+}
+/* skills */
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    }
+    .col-4 img{
+        width: 100%;}
+.card{
+display: flex;
+box-shadow: black;
+align-items: center;
+}
+.card-img-top{
+    display: inline;
+
+}
+.skills{
+    background: radial-gradient(#EBF5FB,#D6EAF8);
+    padding: 20px;
+    padding-left: 40px;
+    align-items: center;
+}
+.skills h1{
+    text-align: center;
+    text-shadow: black;
+    font-family:cursive;
+    transition:cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 30px;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px;
+    
+}
+footer{
+    background-color:#48C9B0;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
